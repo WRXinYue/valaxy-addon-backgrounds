@@ -1,4 +1,6 @@
-export const defaultOptions = [
+import type { ISourceOptions, SingleOrMultiple } from '@tsparticles/engine'
+
+export const defaultOptions: SingleOrMultiple<ISourceOptions> = [
   {
     autoPlay: true,
     background: {
@@ -39,9 +41,9 @@ export const defaultOptions = [
           mode: 'push',
         },
         onDiv: {
-          selectors: {},
+          // selectors: {},
           enable: false,
-          mode: {},
+          // mode: {},
           type: 'circle',
         },
         onHover: {
@@ -217,9 +219,9 @@ export const defaultOptions = [
         close: true,
         fill: true,
         options: {},
-        type: {},
+        // type: {},
       },
-      groups: [],
+      // groups: [],
       move: {
         angle: {
           offset: 0,

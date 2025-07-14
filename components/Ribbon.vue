@@ -1,5 +1,11 @@
+/**
+ * Copyright (c) 2016 Hust.cc.
+ * Licensed under the MIT License (MIT), see:
+ *
+ * @link https://github.com/hustcc/ribbon.js
+ */
+
 <script setup lang="ts">
-// https://github.com/hustcc/ribbon.js
 import { onMounted, ref } from 'vue'
 
 const canvas = ref()
